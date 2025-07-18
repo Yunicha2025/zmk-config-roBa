@@ -129,11 +129,13 @@
 
         Number {
             bindings = <
-&trans  &trans  &trans  &trans         &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans         &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans         &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp Y   &kp LC(SPACE)  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans         &trans                             &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans  &kp LS(LG(S))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp D   &trans         &trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp Y   &kp LC(SPACE)  &trans  &trans             &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;
         };
 
         layer_6 {
