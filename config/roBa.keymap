@@ -129,10 +129,10 @@
 
         Number {
             bindings = <
-&trans  &trans  &trans  &trans         &trans                             &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans         &trans  &kp LS(LG(S))      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp D   &trans         &trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp Y   &kp LC(SPACE)  &trans  &trans             &trans  &trans                          &trans
+&trans  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9   &trans                             &trans  &trans  &trans  &trans  &trans
+&trans  &kp N4            &kp NUMBER_5  &kp N6         &trans  &kp LS(LG(S))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1            &kp N2        &kp N3         &trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_COMMAND  &kp N2        &kp LC(SPACE)  &trans  &trans             &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;
